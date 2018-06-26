@@ -865,8 +865,10 @@ section#rsvp-form {
 }
 
 body.thanks {
-  background: url('mulan.jpg') no-repeat center center;
+  background: url('mulan.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
   position: relative;
   border: none;
 }
