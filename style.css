@@ -669,7 +669,7 @@ h2 {
 
 header {
   background-image: url("mayumatt.jpg");
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
