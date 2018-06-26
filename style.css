@@ -621,7 +621,7 @@ body {
   margin: 0;
 }
 body::before, body::after {
-  position: absolute;
+  position: relative;
   content: '';
   left: 0;
   right: 0;
@@ -687,14 +687,6 @@ header {
   -ms-flex-align: center;
   align-items: center;
   text-align: center;
-}
-
-.credit {
-  position: absolute;
-  display: block;
-  margin: 0 0 1rem 0;
-  bottom: 0;
-  color: #fff;
 }
 
 main {
@@ -870,4 +862,56 @@ section#rsvp-form {
   to {
     opacity: 0;
 }
+}
+
+body.thanks {
+  background: url('mulan.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+  border: none;
+}
+
+body.thanks::before, body.thanks::after {
+  position: relative;
+}
+
+.thanks .container .content {
+  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.thanks h1 {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 1px 2px 1px rgba(90, 90, 90, 0.7);
+}
+
+.thanks p {
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 2px 1px rgba(90, 90, 90, 0.7);
+}
+
+p.quote {
+  font-family: adobe-garamond-pro;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: none;
+    line-height: 1em;
+    text-align: center;
+    text-rendering: optimizeLegibility;
+    margin: 20px auto;
+    transform: translatez(0);
+    max-width: 956px;
+    text-shadow: 1px 2px 1px rgba(90, 90, 90, 0.7);
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out, font-size 0.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
+}
+
+.thanks .container.center {
+  height: 100vh;
 }
