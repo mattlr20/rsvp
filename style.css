@@ -610,7 +610,7 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 1;
   color: #959182;
   background: #fff;
   text-rendering: optimizeLegibility;
@@ -709,7 +709,7 @@ main {
   font-size: 1.125rem;
   font-weight: bold;
   padding: 1rem 1.5rem;
-  margin: 1.625rem 0 0 0;
+  margin: 0 0 0 0;
   background: #eebea9;
   border: 0.125rem solid #eebea9;
   -webkit-transition: all 0.3s ease-in-out;
@@ -742,7 +742,7 @@ main {
   }
 
   .center, main {
-    height: 65vh;
+    height: 55vh;
   }
 
   .credit {
