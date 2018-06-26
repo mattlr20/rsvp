@@ -26,12 +26,16 @@
                                 <p>Thursday, August 4, 2018</p>
                                 <p>4531 NC-43</p>
                                 <p>Hollister, NC 27844</p>
+                                <button type="button" class="rsvp-button" id="btnRSVP" title="RSVP Now">RSVP Now</button>
+                            </section>
+                            <section id="rsvp-form">
                                 <form action="https://formspree.io/richardson.webdev@gmail.com" method="POST">
                                     <input type="hidden" name="_subject" value="Wedding RSVP" />
                                     <input type="hidden" name="_next" value="rsvp/thanks.html" />
                                     <input type="text" class="form-control" name="name" placeholder="Name" required>
+                                    <input type="email" name="Email" class="form-control" placeholder="Email">
                                     <input type="number" class="form-control" name="guest" placeholder="# of Guests" required>
-                                    <button type="submit" class="rsvp-button" title="RSVP Now">Send RSVP</button>
+                                    <button type="submit" class="rsvp-button" title="Send">Send RSVP</button>
                                 </form>
                             </section>
                         </div>
